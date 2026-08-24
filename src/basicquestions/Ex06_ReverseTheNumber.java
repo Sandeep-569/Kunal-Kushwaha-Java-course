@@ -11,6 +11,7 @@ public class Ex06_ReverseTheNumber {
             n/=10;
         }
         System.out.println(ans);
+        sc.close();
     }
 }
 

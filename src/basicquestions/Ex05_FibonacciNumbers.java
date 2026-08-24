@@ -22,6 +22,7 @@ public class Ex05_FibonacciNumbers {
 //           b=p;
 //        }
         System.out.println(b);
+        in.close();
     }
-}
+}   
 

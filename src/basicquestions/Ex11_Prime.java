@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Ex11_Prime {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         System.out.println(isPrime(n));
+        sc.close();
 
     }
 

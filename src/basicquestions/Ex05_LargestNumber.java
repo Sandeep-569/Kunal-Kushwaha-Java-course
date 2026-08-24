@@ -8,14 +8,15 @@ public class Ex05_LargestNumber {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-//        int max = a;
-//        if(b>max){
-//            max = b;
-//        }
-//         if(c>max){
-//            max = c;
-//        }
+        // int max = a;
+        // if(b>max){
+        // max = b;
+        // }
+        // if(c>max){
+        // max = c;
+        // }
         int max = Math.max(Math.max(a, b), c);
         System.out.println(max);
+        sc.close();
     }
 }

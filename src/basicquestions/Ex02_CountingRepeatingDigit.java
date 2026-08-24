@@ -14,5 +14,6 @@ public class Ex02_CountingRepeatingDigit {
            n/=10;
         }
         System.out.println(count);
+        sc.close();
     }
 }

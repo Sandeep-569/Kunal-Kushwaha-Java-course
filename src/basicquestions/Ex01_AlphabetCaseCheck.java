@@ -12,6 +12,7 @@ public class Ex01_AlphabetCaseCheck {
             System.out.println("LowerCase");
         }else{
             System.out.println("UpperCase");
-        }
+        }   
+        sc.close();
     }
 }

@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.*;
 public class Ex04_BasicCalculator {
     public static void main(String[] args){

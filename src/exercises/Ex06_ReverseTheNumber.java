@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.*;
 public class Ex06_ReverseTheNumber {
     public static void main(String[] args){

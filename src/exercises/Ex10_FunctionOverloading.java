@@ -1,3 +1,5 @@
+package exercises;
+
 public class Ex10_FunctionOverloading {
     public static void main(String[] args) {
         fun(67);

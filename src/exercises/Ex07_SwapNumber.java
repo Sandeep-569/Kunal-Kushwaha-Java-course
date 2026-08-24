@@ -1,3 +1,5 @@
+package exercises;
+
 //public class Ex07_SwapNumber {
 //    public static void main(String[] args) {
 //        int a=20,b=30;

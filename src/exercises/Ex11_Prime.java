@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.Scanner;
 
 public class Ex11_Prime {

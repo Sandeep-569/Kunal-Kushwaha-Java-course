@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.Arrays;
 
 public class Ex09_VarArgs {

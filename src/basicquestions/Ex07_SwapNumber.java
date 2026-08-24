@@ -1,4 +1,4 @@
-package exercises;
+package basicquestions;
 
 //public class Ex07_SwapNumber {
 //    public static void main(String[] args) {

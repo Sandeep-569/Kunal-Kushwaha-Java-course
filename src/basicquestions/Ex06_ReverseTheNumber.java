@@ -1,4 +1,4 @@
-package exercises;
+package basicquestions;
 
 import java.util.*;
 public class Ex06_ReverseTheNumber {

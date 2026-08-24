@@ -1,4 +1,4 @@
-package exercises;
+package basicquestions;
 
 public class Ex10_FunctionOverloading {
     public static void main(String[] args) {

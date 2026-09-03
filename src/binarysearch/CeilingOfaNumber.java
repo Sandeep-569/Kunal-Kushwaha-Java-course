@@ -19,9 +19,9 @@ public class CeilingOfaNumber {//ceiling mean greater then equal to target
                 start = mid +  1;
 
             }
-            else{
-                return mid;
-            }
+//            else{
+//                return mid;
+//            }
         }
 //        return end+1;
 //        return start;

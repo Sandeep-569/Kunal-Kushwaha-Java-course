@@ -3,7 +3,7 @@ package binarysearch;
 public class GreaterOrEqual {
     public static void main(String[] args) {
         int[] arr = {2, 3, 7, 10, 11, 11, 25};
-        int target = 11;
+        int target = 35;
         int start =0;
         int end = arr.length-1;
         int ans =0;

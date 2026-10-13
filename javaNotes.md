@@ -402,7 +402,10 @@
         //directly print whole 2d array in one line
         System.out.println(Arrays.deepToString(arr));
 
-# 19. ArrayList
+# 19. Recursion
+      while the function is not finished running it will remain in the stack 
+      when the functin finish executing it is removed from the stack 
+      and the flow of program is restored is restored to where that function was called 
 
 
 

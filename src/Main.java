@@ -1,32 +1,25 @@
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "0P";
-        System.out.println(isPalindrome(s));
-    }
-    public static boolean isPalindrome(String s) {
-        String a = s.toLowerCase();
-        int start = 0;
-        int end = s.length()-1;
-        while(start<end){
-            if (a.charAt(start) < 97 || a.charAt(start) > 122) {
-                start++;
-                continue;
-            }
-            if(a.charAt(end) < 97 || a.charAt(end) > 122){
-                end--;
-                continue;
-            }
-            if(a.charAt(start) != a.charAt(end)){
-                return false;
-            }
-            else if(a.charAt(start) == a.charAt(end)){
-                start++;
-                end--;
-            }
+        int[] nums = {1,-6};
+        int target = -5;
+        int n = nums.length;
+        int max = Integer.MIN_VALUE;
+        int[] ans = {-1,-1};
 
+        for(int i = n-1;i>=0;i--){
+            for(int j =n-1;j>=0;j--){
+                if(nums[i] + nums[j]==target && nums[i] > nums[j] ){
+                    if(max<nums[i] * nums[j]){
+                        max = nums[i] * nums[j];
+                        ans[0] = i;
+                        ans[1] =j;
+                        break;
+                    }
+                }
+            }
         }
-        return true;
+        System.out.println(Arrays.toString(ans));
     }
-
 }
